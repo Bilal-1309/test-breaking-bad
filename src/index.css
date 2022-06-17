@@ -11,7 +11,7 @@
     font-weight: 700;
     font-size: 24px;
 }
-.btn-loadingEpisode{
+.btnLoadingEpisode{
     width: 150px;
     height: 40px;
     padding: 4px 8px;
@@ -22,14 +22,32 @@
     color: white;
     cursor: pointer;
 }
-.btn-loadingEpisode:hover{
+.btnLoadingEpisode:hover{
     background-color: #266dfc;
     width:155px;
     height: 42px;
 }
+.buttonsSort{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px auto;
+}
+.btnSort {
+    width: 300px;
+    height: 35px;
+    background-color: #ffdf8c;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
 .wrapperEpisodes{
-    width: 700px;
-    margin: 150px auto;
+    width: 900px;
+    margin: 0 auto;
     padding: 30px 20px;
     border: 3px solid #f7df65;
     border-radius: 3px;
@@ -75,7 +93,7 @@
 .minusCharacter:hover{
     background-color: #266dfc;
 }
-.btn-delete{
+.btnDelete{
     width: 100px;
     height: 30px;
     background-color: #ff3b55;
@@ -84,6 +102,6 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.btn-delete:hover{
+.btnDelete:hover{
     background-color: #eb0523;
 }
